@@ -47,28 +47,28 @@ builder.Services.AddAuthorization(authorizationOptions =>
     });
 });
 
-builder.Services.AddAuthentication(authenticationOptions =>
-{
-    authenticationOptions.DefaultScheme = IdentityConstants.ApplicationScheme;
-    authenticationOptions.DefaultSignInScheme = IdentityConstants.ExternalScheme;
-})
-    .AddIdentityServerJwt()
-    .AddDiscord(discordOptions =>
-    {
-        discordOptions.ClientSecret = builder.Configuration["DiscordClientSecret"];
-        discordOptions.ClientId = builder.Configuration["DiscordClientId"];
-        discordOptions.Scope.Add("email");
-        discordOptions.ClaimActions.MapJsonKey("verified", "verified");
-        discordOptions.AccessDeniedPath = new PathString("/ErrorMessage/User denied access from Discord authentication.");
-    })
-    .AddIdentityCookies(identityCookieBuilder =>
-    {
-        identityCookieBuilder.ApplicationCookie.Configure(cokieAuthOptions =>
-        {
-            cokieAuthOptions.SlidingExpiration = true;
-            cokieAuthOptions.ExpireTimeSpan = TimeSpan.FromDays(30);
-        });
-    });
+//builder.Services.AddAuthentication(authenticationOptions =>
+//{
+//    authenticationOptions.DefaultScheme = IdentityConstants.ApplicationScheme;
+//    authenticationOptions.DefaultSignInScheme = IdentityConstants.ExternalScheme;
+//})
+//    .AddIdentityServerJwt()
+//    .AddDiscord(discordOptions =>
+//    {
+//        discordOptions.ClientSecret = builder.Configuration["DiscordClientSecret"];
+//        discordOptions.ClientId = builder.Configuration["DiscordClientId"];
+//        discordOptions.Scope.Add("email");
+//        discordOptions.ClaimActions.MapJsonKey("verified", "verified");
+//        discordOptions.AccessDeniedPath = new PathString("/ErrorMessage/User denied access from Discord authentication.");
+//    })
+//    .AddIdentityCookies(identityCookieBuilder =>
+//    {
+//        identityCookieBuilder.ApplicationCookie.Configure(cokieAuthOptions =>
+//        {
+//            cokieAuthOptions.SlidingExpiration = true;
+//            cokieAuthOptions.ExpireTimeSpan = TimeSpan.FromDays(30);
+//        });
+//    });
 
 builder.Services.AddSingleton<IPostConfigureOptions<JwtBearerOptions>, JwtPostConfiguration>();
 
@@ -141,8 +141,8 @@ app.Use((context, next) =>
     return next(context);
 });
 
-app.UseIdentityServer();
-app.UseAuthentication();
+//app.UseIdentityServer();
+//app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseResponseCompression();

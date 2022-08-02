@@ -62,7 +62,7 @@
             </div>
         </div>
     </div>
-    @if (ActiveMerchant.IsRareCombination)
+    @*@if (ActiveMerchant.IsRareCombination)
     {
         <AuthorizeView>
             <NotAuthorized Context="AuthorizeWarn">
@@ -71,8 +71,9 @@
                 </div>
             </NotAuthorized>
         </AuthorizeView>
-    }
-    <button class="btn btn-success" @onclick="Submit" disabled="@(!ActiveMerchant.IsValid(StaticData.Merchants))">Submit</button>
+    }*@
+    @*<button class="btn btn-success" @onclick="Submit" disabled="@(!ActiveMerchant.IsValid(StaticData.Merchants))">Submit</button>*@
+    <button class="btn btn-success" @onclick="Submit">Submit</button>
 </EditForm>
 
 @code{
