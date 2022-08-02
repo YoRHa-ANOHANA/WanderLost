@@ -1,90 +1,10 @@
-{
-  "NAE": {
-    "Name": "NA East",
+﻿{
+  "RU": {
+    "Name": "RU",
     "UtcOffset": "-04:00:00",
     "Servers": [
-      "Adrinne",
-      "Aldebaran",
-      "Avesta",
-      "Azena",
-      "Danube",
-      "Elzowin",
-      "Galatur",
-      "Karta",
-      "Kharmine",
-      "Ladon",
-      "Regulus",
-      "Sasha",
-      "Una",
-      "Vykas",
-      "Zosma"
-    ]
-  },
-  "NAW": {
-    "Name": "NA West",
-    "UtcOffset": "-07:00:00",
-    "Servers": [
-      "Akkan",
-      "Bergstrom",
-      "Enviska",
-      "Mari",
-      "Rohendel",
-      "Shandi",
-      "Valtan"
-    ]
-  },
-  "EUC": {
-    "Name": "EU Central",
-    "UtcOffset": "01:00:00",
-    "Servers": [
-      "Antares",
-      "Asta",
-      "Beatrice",
-      "Brelshaza",
-      "Calvasus",
-      "Inanna",
-      "Kadan",
-      "Mokoko",
-      "Neria",
-      "Nineveh",
-      "Procyon",
-      "Sceptrum",
-      "Sirius",
-      "Slen",
-      "Thaemine",
-      "Thirain",
-      "Trixion",
-      "Wei",
-      "Zinnervale"
-    ]
-  },
-  "EUW": {
-    "Name": "EU West",
-    "UtcOffset": "00:00:00",
-    "Servers": [
-      "Rethramis",
-      "Tortoyk",
-      "Moonkeep",
-      "Stonehearth",
-      "Shadespire",
-      "Tragon",
-      "Petrania",
-      "Punika"
-    ]
-  },
-  "SA": {
-    "Name": "South America",
-    "UtcOffset": "-04:00:00",
-    "Servers": [
-      "Agaton",
-      "Arcturus",
-      "Feiton",
-      "Gienah",
-      "Kazeros",
-      "Kurzan",
-      "Prideholme",
-      "Vern",
-      "Yorn"
+      "A区",
+      "K区"
     ]
   }
 }

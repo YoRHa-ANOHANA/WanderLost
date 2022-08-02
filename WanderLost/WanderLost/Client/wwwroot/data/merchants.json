@@ -1,109 +1,106 @@
-{
+﻿{
   "Dorella": {
     "Name": "Dorella",
-    "Region": "Feiton",
-    "SortOrder": 12,
-    "AppearanceTimes": [ "01:30:00", "04:30:00", "05:30:00", "07:30:00", "08:30:00", "11:30:00", "13:30:00", "16:30:00", "17:30:00", "19:30:00", "20:30:00", "23:30:00" ],
-    "Zones": [ "Kalaja" ],
+    "Region": "Feiton-佩顿",
+    "AppearanceTimes": [ "00:30:00", "01:30:00", "04:30:00", "06:30:00", "09:30:00", "10:30:00", "12:30:00", "13:30:00", "16:30:00", "18:30:00", "21:30:00", "22:30:00" ],
+    "Zones": [ "Kalaja(卡拉扎村)" ],
     "Cards": [
       {
-        "Name": "Goulding",
+        "Name": "Goulding(古尔丁)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Levi",
+        "Name": "Levi(李维)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Kaldor",
+        "Name": "Kaldor(卡尔多)",
         "Rarity": "Epic"
       }
     ],
     "Rapports": [
       {
-        "Name": "Book of Survival",
+        "Name": "Book of Survival(生存之书)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Broken Dagger",
+        "Name": "Broken Dagger(折断的短剑)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Desiccated Wooden Statue",
+        "Name": "Desiccated Wooden Statue(干巴巴的木像)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Red Moon Tears",
+        "Name": "Red Moon Tears(红月眼泪)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Morris": {
     "Name": "Morris",
-    "Region": "East Luterra",
-    "SortOrder": 4,
-    "AppearanceTimes": [ "01:30:00", "04:30:00", "05:30:00", "07:30:00", "08:30:00", "11:30:00", "13:30:00", "16:30:00", "17:30:00", "19:30:00", "20:30:00", "23:30:00" ],
-    "Zones": [ "Dyorika Plain", "Flowering Orchard", "Sunbright Hill" ],
+    "Region": "East Luterra-卢特兰东部",
+    "AppearanceTimes": [ "00:30:00", "01:30:00", "04:30:00", "06:30:00", "09:30:00", "10:30:00", "12:30:00", "13:30:00", "16:30:00", "18:30:00", "21:30:00", "22:30:00" ],
+    "Zones": [ "Dyorika Plain(迪奥利卡平原)", "Flowering Orchard(梨树栖息地)", "Sunbright Hill(圆虹之丘)" ],
     "Cards": [
       {
-        "Name": "Brinewt",
+        "Name": "Brinewt(普论战士布里纽)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Morpheo",
+        "Name": "Morpheo(莫尔贝奥)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Meehan",
+        "Name": "Meehan(米汉)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Thunderwings",
+        "Name": "Thunderwings(雷霆之翼)",
         "Rarity": "Epic"
       }
     ],
     "Rapports": [
       {
-        "Name": "Azenaporium Brooch",
+        "Name": "Azenaporium Brooch(阿塞纳佛利姆胸针)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Dyorika Straw Hat",
+        "Name": "Dyorika Straw Hat(迪奥利卡草帽)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Model of Luterra's Sword",
+        "Name": "Model of Luterra's Sword(卢特兰之剑仿造品)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Chain War Chronicles",
+        "Name": "Chain War Chronicles(铁链战争实录)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Lucas": {
     "Name": "Lucas",
-    "Region": "Yudia",
-    "SortOrder": 2,
-    "AppearanceTimes": [ "01:30:00", "04:30:00", "05:30:00", "07:30:00", "08:30:00", "11:30:00", "13:30:00", "16:30:00", "17:30:00", "19:30:00", "20:30:00", "23:30:00" ],
-    "Zones": [ "Ozhorn Hill", "Saland Hill" ],
+    "Region": "Yudia-尤迪亚",
+    "AppearanceTimes": [ "00:30:00", "01:30:00", "04:30:00", "06:30:00", "09:30:00", "10:30:00", "12:30:00", "13:30:00", "16:30:00", "18:30:00", "21:30:00", "22:30:00" ],
+    "Zones": [ "Ozhorn Hill(奥兹霍恩丘陵)", "Saland Hill(萨兰德丘陵)" ],
     "Cards": [
       {
-        "Name": "Giant Worm",
+        "Name": "Giant Worm(巨虫)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Morina",
+        "Name": "Morina(莫利纳)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Thunder",
+        "Name": "Thunder(雷霆)",
         "Rarity": "Rare"
       }
     ],
     "Rapports": [
       {
-        "Name": "Yudia Natural Salt",
+        "Name": "Yudia Natural Salt(尤迪亚天然盐)",
         "Rarity": "Epic"
       },
       {
@@ -111,469 +108,458 @@
         "Rarity": "Epic"
       },
       {
-        "Name": "Sky Reflection Oil",
+        "Name": "Sky Reflection Oil(照亮天空的油)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Mac": {
     "Name": "Mac",
-    "Region": "Anikka",
-    "SortOrder": 6,
-    "AppearanceTimes": [ "01:30:00", "04:30:00", "05:30:00", "07:30:00", "08:30:00", "11:30:00", "13:30:00", "16:30:00", "17:30:00", "19:30:00", "20:30:00", "23:30:00" ],
-    "Zones": [ "Delphi Township", "Melody Forest", "Prisma Valley", "Rattan Hill", "Twilight Mists" ],
+    "Region": "Anikka-安忆谷",
+    "AppearanceTimes": [ "00:30:00", "01:30:00", "04:30:00", "06:30:00", "09:30:00", "10:30:00", "12:30:00", "13:30:00", "16:30:00", "18:30:00", "21:30:00", "22:30:00" ],
+    "Zones": [ "Delphi Township(武县)", "Melody Forest(木灵森林)", "Prisma Valley(镜谷)", "Rattan Hill(藤丘)", "Twilight Mists(暮光之雾)" ],
     "Cards": [
       {
-        "Name": "Madam Moonscent",
+        "Name": "Madam Moonscent(月香道士)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Sir Druden",
+        "Name": "Sir Druden(客主道士)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Sir Valleylead",
+        "Name": "Sir Valleylead(修灵道士)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Wei",
+        "Name": "Wei(魏)",
         "Rarity": "Legendary"
       }
     ],
     "Rapports": [
       {
-        "Name": "Tournament Entrance Stamp",
+        "Name": "Tournament Entrance Stamp(比武大会参赛证)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Angler's Fishing Pole",
+        "Name": "Angler's Fishing Pole(姜太公的鱼竿)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Jeffrey": {
     "Name": "Jeffrey",
-    "Region": "Shushire",
-    "SortOrder": 9,
-    "AppearanceTimes": [ "01:30:00", "04:30:00", "05:30:00", "07:30:00", "08:30:00", "11:30:00", "13:30:00", "16:30:00", "17:30:00", "19:30:00", "20:30:00", "23:30:00" ],
-    "Zones": [ "Bitterwind Hill", "Frozen Sea", "Iceblood Plateau", "Icewing Heights", "Lake Eternity" ],
+    "Region": "Shushire-休沙瑞",
+    "AppearanceTimes": [ "00:30:00", "01:30:00", "04:30:00", "06:30:00", "09:30:00", "10:30:00", "12:30:00", "13:30:00", "16:30:00", "18:30:00", "21:30:00", "22:30:00" ],
+    "Zones": [ "Bitterwind Hill(风刃之丘)", "Frozen Sea(冰封之海)", "Iceblood Plateau(霜狱高原)", "Icewing Heights(冰蝶悬崖)", "Lake Eternity(结冰时的湖)" ],
     "Cards": [
       {
-        "Name": "Javern",
+        "Name": "Javern(扎贝隆)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Sian",
+        "Name": "Sian(席安)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Madnick",
+        "Name": "Madnick(麦德尼克)",
         "Rarity": "Epic"
       }
     ],
     "Rapports": [
       {
-        "Name": "Shimmering Essence",
+        "Name": "Shimmering Essence(发光的精华)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Sirius's Holy Book",
+        "Name": "Sirius's Holy Book(赛尔斯圣经)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Ben": {
     "Name": "Ben",
-    "Region": "Rethramis",
-    "SortOrder": 1,
-    "AppearanceTimes": [ "00:30:00", "03:30:00", "04:30:00", "06:30:00", "07:30:00", "10:30:00", "12:30:00", "15:30:00", "16:30:00", "18:30:00", "19:30:00", "22:30:00" ],
-    "Zones": [ "Ankumo Mountain", "Loghill", "Rethramis Border" ],
+    "Region": "Rethramis-阿尔忒弥斯",
+    "AppearanceTimes": [ "00:30:00", "03:30:00", "05:30:00", "08:30:00", "09:30:00", "11:30:00", "12:30:00", "15:30:00", "17:30:00", "20:30:00", "21:30:00", "23:30:00" ],
+    "Zones": [ "Ankumo Mountain(安格莫斯山麓)", "Loghill(罗格希尔)", "Rethramis Border(边境地带)" ],
     "Cards": [
       {
-        "Name": "Siera",
+        "Name": "Siera(希利)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Prideholme Neria",
+        "Name": "Prideholme Neria(莱温哈特涅利亚)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Varut",
+        "Name": "Varut(巴鲁图)",
         "Rarity": "Rare"
       }
     ],
     "Rapports": [
       {
-        "Name": "Fancier Bouquet",
+        "Name": "Fancier Bouquet(更华丽的花束)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Prideholme Potato",
+        "Name": "Prideholme Potato(莱昂哈特土豆)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Rethramis Holy Water",
+        "Name": "Rethramis Holy Water(阿尔忒弥斯圣水)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Surprise Chest",
+        "Name": "Surprise Chest(扑通扑通箱)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Laitir": {
     "Name": "Laitir",
-    "Region": "Yorn",
-    "SortOrder": 11,
-    "AppearanceTimes": [ "00:30:00", "03:30:00", "04:30:00", "06:30:00", "07:30:00", "10:30:00", "12:30:00", "15:30:00", "16:30:00", "18:30:00", "19:30:00", "22:30:00" ],
-    "Zones": [ "Black Anvil Mine", "Hall of Promise", "Iron Hammer Mine", "Unfinished Garden", "Yorn's Cradle" ],
+    "Region": "Yorn-约拿",
+    "AppearanceTimes": [ "00:30:00", "03:30:00", "05:30:00", "08:30:00", "09:30:00", "11:30:00", "12:30:00", "15:30:00", "17:30:00", "20:30:00", "21:30:00", "23:30:00" ],
+    "Zones": [ "Black Anvil Mine(黑铁砧车间)", "Hall of Promise(约定之地)", "Iron Hammer Mine(铁锤车间)", "Unfinished Garden(未完成的花园)", "Yorn's Cradle(起始之地)" ],
     "Cards": [
       {
-        "Name": "Great Castle Neria",
+        "Name": "Great Castle Neria(伟大的城堡涅利亚)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Piyer",
+        "Name": "Piyer(皮埃尔)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Kaysarr",
+        "Name": "Kaysarr(凯萨尔)",
         "Rarity": "Epic"
       }
     ],
     "Rapports": [
       {
-        "Name": "Piyer's Secret Textbook",
+        "Name": "Piyer's Secret Textbook(皮埃尔的秘密教科书)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Fargar's Beer",
+        "Name": "Fargar's Beer(帕胡图尔啤酒)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Peter": {
     "Name": "Peter",
-    "Region": "North Vern",
-    "SortOrder": 8,
-    "AppearanceTimes": [ "00:30:00", "03:30:00", "04:30:00", "06:30:00", "07:30:00", "10:30:00", "12:30:00", "15:30:00", "16:30:00", "18:30:00", "19:30:00", "22:30:00" ],
-    "Zones": [ "Balankar Mountains", "Fesnar Highland", "Parna Forest", "Port Krona", "Vernese Forest" ],
+    "Region": "North Vern-伯尔尼北部",
+    "AppearanceTimes": [ "00:30:00", "03:30:00", "05:30:00", "08:30:00", "09:30:00", "11:30:00", "12:30:00", "15:30:00", "17:30:00", "20:30:00", "21:30:00", "23:30:00" ],
+    "Zones": [ "Balankar Mountains(巴兰卡山脉)", "Fesnar Highland(佩斯纳尔高原)", "Parna Forest(帕尔纳森林)", "Port Krona(克罗纳港)", "Vernese Forest(维尔尼尔森林)" ],
     "Cards": [
       {
-        "Name": "Gideon",
+        "Name": "Gideon(吉迪恩)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Payla",
+        "Name": "Payla(佩伊林)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Thar",
+        "Name": "Thar(拉哈特)",
         "Rarity": "Epic"
       }
     ],
     "Rapports": [
       {
-        "Name": "Crystallized Magick",
+        "Name": "Crystallized Magick(魔力结晶)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Exquisite Music Box",
+        "Name": "Exquisite Music Box(华丽的音乐盒)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Goblin Yam",
+        "Name": "Goblin Yam(哥布林地瓜)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Magick Cloth",
+        "Name": "Magick Cloth(魔法布料)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Queen's Knights Application",
+        "Name": "Queen's Knights Application(骑士团入团申请书)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Vern's Founding Coin",
+        "Name": "Vern's Founding Coin(伯尔尼建国纪念币)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Malone": {
     "Name": "Malone",
-    "Region": "West Luterra",
-    "SortOrder": 3,
-    "AppearanceTimes": [ "00:30:00", "02:30:00", "05:30:00", "06:30:00", "08:30:00", "09:30:00", "12:30:00", "14:30:00", "17:30:00", "18:30:00", "20:30:00", "21:30:00" ],
-    "Zones": [ "Battlebound Plains", "Bilbrin Forest", "Lakebar", "Medrick Monastery", "Mount Zagoras" ],
+    "Region": "West Luterra-卢特兰西部",
+    "AppearanceTimes": [ "01:30:00", "02:30:00", "05:30:00", "07:30:00", "10:30:00", "11:30:00", "13:30:00", "14:30:00", "17:30:00", "19:30:00", "22:30:00", "23:30:00" ],
+    "Zones": [ "Battlebound Plains(激战平原)", "Bilbrin Forest(比尔布林森林)", "Lakebar(雷科巴)", "Medrick Monastery(梅德里克修道院)", "Mount Zagoras(扎格拉斯山)" ],
     "Cards": [
       {
-        "Name": "Berhart",
+        "Name": "Berhart(贝尔哈特)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Cadogan",
+        "Name": "Cadogan(卡多甘)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Cassleford",
+        "Name": "Cassleford(哈瑟林克)",
         "Rarity": "Rare"
       }
     ],
     "Rapports": [
       {
-        "Name": "Black Rose",
+        "Name": "Black Rose(黑玫瑰)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Lakebar Tomato Juice",
+        "Name": "Lakebar Tomato Juice(雷科巴西红柿汁)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Stalwart Cage",
+        "Name": "Stalwart Cage(坚固的鸟笼)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Chain War Chronicles",
+        "Name": "Chain War Chronicles(铁链战争实录)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Burt": {
     "Name": "Burt",
-    "Region": "East Luterra",
-    "SortOrder": 4,
-    "AppearanceTimes": [ "00:30:00", "02:30:00", "05:30:00", "06:30:00", "08:30:00", "09:30:00", "12:30:00", "14:30:00", "17:30:00", "18:30:00", "20:30:00", "21:30:00" ],
-    "Zones": [ "Blackrose Chapel", "Borea's Domain", "Croconys Seashore", "Leyar Terrace" ],
+    "Region": "East Luterra-卢特兰东部",
+    "AppearanceTimes": [ "01:30:00", "02:30:00", "05:30:00", "07:30:00", "10:30:00", "11:30:00", "13:30:00", "14:30:00", "17:30:00", "19:30:00", "22:30:00", "23:30:00" ],
+    "Zones": [ "Blackrose Chapel(黑玫瑰教堂)", "Borea's Domain(博伦亚领地)", "Croconys Seashore(鳄鱼海岸北)", "Croconys Seashore(鳄鱼海岸南)", "Leyar Terrace(拉伊亚阶地)" ],
     "Cards": [
       {
-        "Name": "Nox",
+        "Name": "Nox(诺克斯)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Seria",
+        "Name": "Seria(赛利亚)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Thunderwings",
+        "Name": "Thunderwings(雷霆之翼)",
         "Rarity": "Epic"
       }
     ],
     "Rapports": [
       {
-        "Name": "Azenaporium Brooch",
+        "Name": "Azenaporium Brooch(阿塞纳佛利姆胸针)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Dyorika Straw Hat",
+        "Name": "Dyorika Straw Hat(迪奥利卡草帽)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Model of Luterra's Sword",
+        "Name": "Model of Luterra's Sword(卢特兰之剑仿造品)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Chain War Chronicles",
+        "Name": "Chain War Chronicles(铁链战争实录)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Oliver": {
     "Name": "Oliver",
-    "Region": "Tortoyk",
-    "SortOrder": 5,
-    "AppearanceTimes": [ "00:30:00", "02:30:00", "05:30:00", "06:30:00", "08:30:00", "09:30:00", "12:30:00", "14:30:00", "17:30:00", "18:30:00", "20:30:00", "21:30:00" ],
-    "Zones": [ "Forest of Giants", "Seaswept Woods", "Skyreach Steppe", "Sweetwater Forest" ],
+    "Region": "Tortoyk-托托克",
+    "AppearanceTimes": [ "01:30:00", "02:30:00", "05:30:00", "07:30:00", "10:30:00", "11:30:00", "13:30:00", "14:30:00", "17:30:00", "19:30:00", "22:30:00", "23:30:00" ],
+    "Zones": [ "Forest of Giants(沉默的巨人森林)", "Seaswept Woods(海香森林)", "Skyreach Steppe(岛巨人之森)", "Sweetwater Forest(甜蜜森林)" ],
     "Cards": [
       {
-        "Name": "Egg of Creation",
+        "Name": "Egg of Creation(创造之蛋)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Eolh",
+        "Name": "Eolh(守护者艾奥尔)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Mokamoka",
+        "Name": "Mokamoka(摩卡摩卡)",
         "Rarity": "Epic"
       }
     ],
     "Rapports": [
       {
-        "Name": "Mokoko Carrot",
+        "Name": "Mokoko Carrot(摩可可胡萝卜)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Oversized Ladybug Doll",
+        "Name": "Oversized Ladybug Doll(特大瓢虫娃娃)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Round Glass Piece",
+        "Name": "Round Glass Piece(圆圆的玻璃碎片)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Shy Wind Flower Pollen",
+        "Name": "Shy Wind Flower Pollen(羞涩的风花粉)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Nox": {
     "Name": "Nox",
-    "Region": "Arthetine",
-    "SortOrder": 7,
-    "AppearanceTimes": [ "00:30:00", "02:30:00", "05:30:00", "06:30:00", "08:30:00", "09:30:00", "12:30:00", "14:30:00", "17:30:00", "18:30:00", "20:30:00", "21:30:00" ],
-    "Zones": [ "Arid Path", "Nebelhorn", "Riza Falls", "Scraplands", "Totrich", "Windbringer Hills" ],
+    "Region": "Arthetine-阿尔泰因",
+    "AppearanceTimes": [ "01:30:00", "02:30:00", "05:30:00", "07:30:00", "10:30:00", "11:30:00", "13:30:00", "14:30:00", "17:30:00", "19:30:00", "22:30:00", "23:30:00" ],
+    "Zones": [ "Arid Path(贫瘠通道)", "Nebelhorn(内伯尔霍伦)", "Riza Falls(里奇瀑布)", "Scraplands(分裂之地)", "Totrich(托特里奇)", "Windbringer Hill(清风丘陵)" ],
     "Cards": [
       {
-        "Name": "Bergstrom",
+        "Name": "Bergstrom(艾希曼)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Stern Neria",
+        "Name": "Stern Neria(休特仑涅利亚)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Krause",
+        "Name": "Krause(卡因)",
         "Rarity": "Epic"
       }
     ],
     "Rapports": [
       {
-        "Name": "Energy X7 Capsule",
+        "Name": "Energy X7 Capsule(能量 X7 胶囊)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Fine Gramophone",
+        "Name": "Fine Gramophone(高级留声机)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Aricer": {
     "Name": "Aricer",
-    "Region": "Rohendel",
-    "SortOrder": 10,
-    "AppearanceTimes": [ "00:30:00", "02:30:00", "05:30:00", "06:30:00", "08:30:00", "09:30:00", "12:30:00", "14:30:00", "17:30:00", "18:30:00", "20:30:00", "21:30:00" ],
-    "Zones": [ "Breezesome Brae", "Elzowin's Shade", "Glass Lotus Lake", "Lake Shiverwave", "Xeneela Ruins" ],
+    "Region": "Rohendel-罗享达尔",
+    "AppearanceTimes": [ "01:30:00", "02:30:00", "05:30:00", "07:30:00", "10:30:00", "11:30:00", "13:30:00", "14:30:00", "17:30:00", "19:30:00", "22:30:00", "23:30:00" ],
+    "Zones": [ "Breezesome Brae(风香之丘)", "Elzowin's Shade(埃尔佐温的树荫)", "Glass Lotus Lake(琉璃莲花湖)", "Lake Shiverwave(银波湖)", "Xeneela Ruins(荒废的泽纳尔)" ],
     "Cards": [
       {
-        "Name": "Alifer",
+        "Name": "Alifer(阿里费尔)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Lenora",
+        "Name": "Lenora(莱诺拉)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Gnosis",
+        "Name": "Gnosis(古诺西斯)",
         "Rarity": "Epic"
       }
     ],
     "Rapports": [
       {
-        "Name": "Danube's Earrings",
+        "Name": "Danube's Earrings(丹尼斯布的耳环)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Elemental's Feather",
+        "Name": "Elemental's Feather(精灵羽毛)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Soundstone of Dawn",
+        "Name": "Soundstone of Dawn(黎明魔石)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Sylvain Queens' Blessing",
+        "Name": "Sylvain Queens' Blessing(西琳女王的祝福)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Rayni": {
     "Name": "Rayni",
-    "Region": "Punika",
-    "SortOrder": 13,
-    "AppearanceTimes": [ "00:30:00", "02:30:00", "05:30:00", "06:30:00", "08:30:00", "09:30:00", "12:30:00", "14:30:00", "17:30:00", "18:30:00", "20:30:00", "21:30:00" ],
-    "Zones": [ "Secret Forest", "Starsand Beach", "Tideshelf Path", "Tikatika Colony" ],
+    "Region": "Punika-帕普尼卡",
+    "AppearanceTimes": [ "01:30:00", "02:30:00", "05:30:00", "07:30:00", "10:30:00", "11:30:00", "13:30:00", "14:30:00", "17:30:00", "19:30:00", "22:30:00", "23:30:00" ],
+    "Zones": [ "Secret Forest(秘密森林)", "Starsand Beach(星星沙滩)", "Tideshelf Path(浅海之路)", "Tikatika Colony(蒂卡蒂卡群落地)" ],
     "Cards": [
       {
-        "Name": "Cicerra",
+        "Name": "Cicerra(基凯撒)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Seto",
+        "Name": "Seto(赛托)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Stella",
+        "Name": "Stella(斯特拉)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Albion",
+        "Name": "Albion(阿尔比恩)",
         "Rarity": "Epic"
       }
     ],
     "Rapports": [
       {
-        "Name": "Hollowfruit",
+        "Name": "Hollowfruit(伯顿库尔果实)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Pinata Crafting Set",
+        "Name": "Pinata Crafting Set(皮纳塔制作工具包)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Rainbow Tikatika Flower",
+        "Name": "Rainbow Tikatika Flower(彩虹蒂卡蒂卡花)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Oreha Viewing Stone",
+        "Name": "Oreha Viewing Stone(奥雷哈观景石)",
         "Rarity": "Legendary"
       }
     ]
   },
   "Evan": {
     "Name": "Evan",
-    "Region": "South Vern",
-    "SortOrder": 14,
-    "AppearanceTimes": [ "00:30:00", "03:30:00", "04:30:00", "06:30:00", "07:30:00", "10:30:00", "12:30:00", "15:30:00", "16:30:00", "18:30:00", "19:30:00", "22:30:00" ],
-    "Zones": [ "Bellion Ruins", "Candaria Territory" ],
+    "Region": "South Vern-伯尔尼南部",
+    "AppearanceTimes": [ "00:30:00", "03:30:00", "05:30:00", "08:30:00", "09:30:00", "11:30:00", "12:30:00", "15:30:00", "17:30:00", "20:30:00", "21:30:00", "23:30:00" ],
+    "Zones": [ "Bellion Ruins(贝里翁遗迹)", "Candaria Territory(坎达利亚领地)" ],
     "Cards": [
       {
-        "Name": "Killian",
+        "Name": "Killian(基里恩)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Satra",
+        "Name": "Satra(萨特拉)",
         "Rarity": "Uncommon"
       },
       {
-        "Name": "Lujean",
+        "Name": "Lujean(鲁吉内)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Vern Zenlord",
+        "Name": "Vern Zenlord(贝隆杰罗德)",
         "Rarity": "Rare"
       },
       {
-        "Name": "Xereon",
+        "Name": "Xereon(格里昂)",
         "Rarity": "Rare"
       }
     ],
     "Rapports": [
       {
-        "Name": "Feather Fan",
+        "Name": "Feather Fan(羽扇)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Febre Potion",
+        "Name": "Febre Potion(发热药水)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Mockup Firefly",
+        "Name": "Mockup Firefly(萤火虫模型)",
         "Rarity": "Epic"
       },
       {
-        "Name": "Necromancer's Records",
+        "Name": "Necromancer's Records(死灵法师的记录)",
         "Rarity": "Legendary"
       }
     ]
   }
 }
+

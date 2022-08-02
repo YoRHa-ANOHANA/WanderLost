@@ -1,8 +1,4 @@
-﻿@using Microsoft.AspNetCore.Components.Authorization
-@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
-
-@inject NavigationManager Navigation
-@inject SignOutSessionStateManager SignOutManager
+﻿@inject NavigationManager Navigation
 
 <div class="navbar navbar-expand-md navbar-dark bg-primary">
     <div class="container">
@@ -26,18 +22,6 @@
                 </li>
             </ul>
             <ul class="navbar-nav ms-md-auto">
-                <AuthorizeView>
-                    <Authorized>
-                        <li class="nav-item"><a class="nav-link" href="/Profile">@context.User.Identity?.Name</a></li>
-                        <li class="nav-item"><button class="nav-link btn btn-link" @onclick="BeginSignOut">Log out</button></li>
-                    </Authorized>
-                    <NotAuthorized>
-                        <li class="nav-item"><a class="nav-link" href="/Authentication/@RemoteAuthenticationActions.LogIn">Log in with Discord</a></li>
-                    </NotAuthorized>
-                    <Authorizing>
-                        <li class="nav-item">Checking login status...</li>
-                    </Authorizing>
-                </AuthorizeView>
             </ul>
         </div>
     </div>
@@ -51,11 +35,5 @@
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
-    }
-
-    private async Task BeginSignOut(MouseEventArgs args)
-    {
-        await SignOutManager.SetSignOutState();
-        Navigation.NavigateTo($"Authentication/{RemoteAuthenticationActions.LogOut}");
     }
 }

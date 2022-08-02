@@ -4,14 +4,14 @@
 
 @page "/Profile"
 
-@attribute [Authorize]
+@*@attribute [Authorize]*@
 
 <div class="container">
-    <AuthorizeView>
+    @*<AuthorizeView>
         <Authorized>
             <h3>Stats for @context.User.Identity?.Name</h3>
         </Authorized>
-    </AuthorizeView>
+    </AuthorizeView>*@
     <p>Primary Server: @Stats.PrimaryServer</p>
     <p>Total Submissions: @Stats.UpvotedMerchats</p>
     <p>Total Upvotes: @Stats.TotalUpvotes</p>

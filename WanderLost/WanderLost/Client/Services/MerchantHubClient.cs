@@ -2,7 +2,7 @@
 using WanderLost.Shared.Interfaces;
 using HubClientSourceGenerator;
 using WanderLost.Shared;
-using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
+//using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 
 namespace WanderLost.Client.Services;
 
@@ -11,16 +11,16 @@ namespace WanderLost.Client.Services;
 public sealed partial class MerchantHubClient : IAsyncDisposable
 {
     public HubConnection HubConnection { get; init; }
-    private readonly IAccessTokenProvider _accessTokenProvider;
+    //private readonly IAccessTokenProvider _accessTokenProvider;
 
-    public MerchantHubClient(IConfiguration configuration, IAccessTokenProvider accessTokenProvider)
+    public MerchantHubClient(IConfiguration configuration/*, IAccessTokenProvider accessTokenProvider*/)
     {
-        _accessTokenProvider = accessTokenProvider;
+        //_accessTokenProvider = accessTokenProvider;
         HubConnection = new HubConnectionBuilder()
             .WithUrl(configuration["SocketEndpoint"], options => { 
                 options.SkipNegotiation = true;
                 options.Transports = Microsoft.AspNetCore.Http.Connections.HttpTransportType.WebSockets;
-                options.AccessTokenProvider = GetToken;
+                //options.AccessTokenProvider = GetToken;
             })
             .WithAutomaticReconnect(new[] {
                 //Stargger reconnections a bit so server doesn't get hammered after a restart
@@ -37,12 +37,12 @@ public sealed partial class MerchantHubClient : IAsyncDisposable
         HubConnection.KeepAliveInterval = TimeSpan.FromMinutes(1);
     }
     
-    private async Task<string?> GetToken()
-    {
-        var tokenResult = await _accessTokenProvider.RequestAccessToken();
-        tokenResult.TryGetToken(out var token);
-        return token?.Value;
-    }
+    //private async Task<string?> GetToken()
+    //{
+    //    var tokenResult = await _accessTokenProvider.RequestAccessToken();
+    //    tokenResult.TryGetToken(out var token);
+    //    return token?.Value;
+    //}
 
     public async ValueTask DisposeAsync()
     {
