@@ -7,12 +7,12 @@
 
 <div class="position-relative">
     <div class="d-flex p-1 border rounded cursor-pointer" @onclick="OnNotificationToggleClicked">
-        <span>Merchant notifications: </span>
+        <span>流浪商人出现通知: </span>
         <div>
             @if (ClientSettings.NotificationsEnabled)
             {
                 <span class="text-success mx-1">
-                    <span>on</span>
+                    <span>开</span>
                     <span class="oi oi-circle-check"></span>
                 </span>
 
@@ -20,7 +20,7 @@
             else
             {
                 <span class="text-danger mx-1">
-                    <span>off</span>
+                    <span>关</span>
                     <span class="oi oi-ban"></span>
                 </span>
             }
