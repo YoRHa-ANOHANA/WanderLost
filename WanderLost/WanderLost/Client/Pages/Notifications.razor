@@ -6,7 +6,7 @@
     <NotificationToggle NotificationStateChanged="@StateHasChanged" />
 </div>
 
-<p class="text-nowrap">Edit notification alarms. Click on <NotificationIcon Enabled="true" />/<NotificationIcon Enabled="false" /> to disable/enable notifications for an item.</p>
+<p class="text-nowrap">点击通知开关 <NotificationIcon Enabled="true" />/<NotificationIcon Enabled="false" /> 关闭/打开 该项目的通知。</p>
 
 <div class="container mx-1">
     <div class="form-check col-6 m-3">
@@ -33,7 +33,7 @@
     </div>
     <div class="row my-2">
         <div class="col-auto">
-            <button class="btn btn-dark" disabled="@(!ClientSettings.BrowserNotifications)" @onclick="ClientNotifications.RunTestNotification">Run test notification</button>
+            <button class="btn btn-dark" disabled="@(!ClientSettings.BrowserNotifications)" @onclick="ClientNotifications.RunTestNotification">运行通知测试</button>
         </div>
     </div>
     <div class="row my-2">
