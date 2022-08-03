@@ -9,13 +9,13 @@
 @implements IAsyncDisposable
 
 <PageTitle>Submit Merchant Location</PageTitle>
-<h1>Submit Location for @ActiveMerchant.Name - @MerchantData?.Region</h1>
+<h1>提交位置 @ActiveMerchant.Name - @MerchantData?.Region</h1>
 
 <EditForm Model="ActiveMerchant">
     <div class="row">
         <div class="col-sm-6">
             <div class="card border-secondary mb-3">
-                <div class="card-header">Zone</div>
+                <div class="card-header">区域</div>
                 <div class="card-body">
                     <InputRadioGroup @bind-Value="ActiveMerchant.Zone">
                         @foreach(var zone in MerchantData?.Zones ?? Enumerable.Empty<string>())
@@ -31,7 +31,7 @@
         </div>
         <div class="col-sm-6">
             <div class="card border-secondary mb-3">
-                <div class="card-header">Card</div>
+                <div class="card-header">卡牌</div>
                 <div class="card-body">
                     <InputRadioGroup @bind-Value="CardName">
                         @foreach(var card in MerchantData?.Cards ?? Enumerable.Empty<Item>())
@@ -47,7 +47,7 @@
         </div>
         <div class="col-sm-6">
             <div class="card border-secondary mb-3">
-                <div class="card-header">Rapport Item</div>
+                <div class="card-header">好感度礼物</div>
                 <div class="card-body">
                     <InputRadioGroup @bind-Value="RapportName">
                         @foreach(var item in MerchantData?.Rapports ?? Enumerable.Empty<Item>())
@@ -73,7 +73,7 @@
         </AuthorizeView>
     }*@
     @*<button class="btn btn-success" @onclick="Submit" disabled="@(!ActiveMerchant.IsValid(StaticData.Merchants))">Submit</button>*@
-    <button class="btn btn-success" @onclick="Submit">Submit</button>
+    <button class="btn btn-success" @onclick="Submit">提交</button>
 </EditForm>
 
 @code{
