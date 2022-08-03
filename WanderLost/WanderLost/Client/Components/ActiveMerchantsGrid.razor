@@ -3,21 +3,21 @@
 
 @using System.Globalization
 
-<h3 class="mt-3">Active Merchants
+<h3 class="mt-3">活跃商家
     @if(ActiveData.MerchantGroups.FirstOrDefault(mg => mg.IsActive) is ActiveMerchantGroup activeGroup)
     {
-        <span>(Expire in @((activeGroup.AppearanceExpires - DateTimeOffset.UtcNow).ToString(@"mm\:ss")))</span>
+        <span>(离开时间 @((activeGroup.AppearanceExpires - DateTimeOffset.UtcNow).ToString(@"mm\:ss")))</span>
     }
 </h3>
 <table class="table">
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Region</th>
-            <th>Zone</th>
-            <th>Card</th>
-            <th>Rapport</th>
-            <th>Votes</th>
+            <th>名称</th>
+            <th>区域</th>
+            <th>地区</th>
+            <th>卡牌</th>
+            <th>好感度</th>
+            <th>点赞数</th>
             <th></th>
         </tr>
     </thead>
@@ -34,7 +34,7 @@
                     <td>?</td>
                     <td>?</td>
                     <td />
-                    <td><a href="/UpdateMerchant/@Server/@merchantGroup.MerchantName">Submit Location</a></td>
+                    <td><a href="/UpdateMerchant/@Server/@merchantGroup.MerchantName">提交位置</a></td>
                 }
                 else
                 {
@@ -60,7 +60,7 @@
                         <button class="btn btn-sm @GetVoteButtonCss(merchant.Id, VoteType.Upvote)" alt="Upvote" @onclick="@(async m => await SubmitVote(merchant.Id, VoteType.Upvote))"><span class="oi oi-thumb-up"></span></button>
                         <button class="btn btn-sm @GetVoteButtonCss(merchant.Id, VoteType.Downvote)" alt="Downvote" @onclick="@(async m => await SubmitVote(merchant.Id, VoteType.Downvote))"><span class="oi oi-thumb-down"></span></button>
                     </td>
-                    <td rowspan="@rowSpan"><a class="link-danger" href="/UpdateMerchant/@Server/@merchantGroup.MerchantName">Suggest Replacement</a></td>
+                    <td rowspan="@rowSpan"><a class="link-danger" href="/UpdateMerchant/@Server/@merchantGroup.MerchantName">重新提交</a></td>
                 }
             </tr>
             @foreach (var merchant in merchantGroup.ActiveMerchants.OrderByDescending(x => x.Votes).Skip(1))

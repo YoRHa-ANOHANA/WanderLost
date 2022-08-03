@@ -1,6 +1,6 @@
 ﻿@page "/"
 
-<PageTitle>Lost Merchants</PageTitle>
+<PageTitle>流浪商人</PageTitle>
 
 @if (ClientSettings.NotificationsEnabled && ClientSettings.NotifyBrowserSoundEnabled)
 {
@@ -24,7 +24,7 @@ else if (HubClient.HubConnection.State == Microsoft.AspNetCore.SignalR.Client.Hu
 
 <div class="row">
     <div class="col-4">
-        <label for="severRegion">Server Region: </label>
+        <label for="severRegion">服务器区域: </label>
         <select class="form-select" id="severRegion" @bind="@ServerRegion">
             <option></option>
             @foreach (var datacenter in StaticData.ServerRegions)
@@ -35,7 +35,7 @@ else if (HubClient.HubConnection.State == Microsoft.AspNetCore.SignalR.Client.Hu
     </div>
 
     <div class="col-4">
-        <label class="control-label" for="server">Server: </label>
+        <label class="control-label" for="server">服务器: </label>
         <select class="form-select" id="server" @bind="@Server">
             <option></option>
             @if (!string.IsNullOrWhiteSpace(ServerRegion))

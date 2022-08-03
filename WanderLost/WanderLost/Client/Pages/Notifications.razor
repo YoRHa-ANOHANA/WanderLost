@@ -6,20 +6,20 @@
     <NotificationToggle NotificationStateChanged="@StateHasChanged" />
 </div>
 
-<p class="text-nowrap">Edit notification alarms. Click on <NotificationIcon Enabled="true" />/<NotificationIcon Enabled="false" /> to disable/enable notifications for an item.</p>
+<p class="text-nowrap">点击通知开关 <NotificationIcon Enabled="true" />/<NotificationIcon Enabled="false" /> 关闭/打开 该项目的通知。</p>
 
 <div class="container mx-1">
     <div class="form-check col-6 m-3">
         <input class="form-check-input" type="checkbox" checked="@ClientSettings.NotifyBrowserSoundEnabled" id="browserSound" @onclick="@ToggleNotifyBrowserSoundEnabled">
         <label class="form-check-label" for="browserSound">
-            Play sound when matching item found. Volume:
+            出现相匹配的东西时通知。音量:
         </label>
         <input type="range" value="@(ClientSettings.SoundVolume * 100)" @onchange="@ChangeVolumeAndPlayTestSound"/>
     </div>
     <div class="form-check col-6 m-3">
         <input class="form-check-input" type="checkbox" checked="@ClientSettings.RareSoundsOnly" id="rareSound" @onclick="@ToggleRareSoundOnly">
         <label class="form-check-label" for="rareSound">
-            Play sound only for rare combinations
+            出现稀有组合的时候通知
         </label>
     </div>
 </div>
@@ -28,17 +28,17 @@
     <div class="form-check col-6 m-3">
         <input class="form-check-input" type="checkbox" checked="@ClientSettings.BrowserNotifications" id="browserNotification" @onclick="@ToggleBrowserNotifications">
         <label class="form-check-label" for="browserNotification">
-            Use In-Browser Notifications
+            使用浏览器的通知
         </label>
     </div>
     <div class="row my-2">
         <div class="col-auto">
-            <button class="btn btn-dark" disabled="@(!ClientSettings.BrowserNotifications)" @onclick="ClientNotifications.RunTestNotification">Run test notification</button>
+            <button class="btn btn-dark" disabled="@(!ClientSettings.BrowserNotifications)" @onclick="ClientNotifications.RunTestNotification">运行通知测试</button>
         </div>
     </div>
     <div class="row my-2">
         <div class="col-6">
-            <span class="form-control-plaintext">Minimum upvotes for alert on <ItemDisplay Item="@(new Item { Name = "legendary Card", Rarity = Rarity.Legendary })" /> </span>
+            <span class="form-control-plaintext">传奇卡出现最低点赞通知数: <ItemDisplay Item="@(new Item { Name = "legendary Card", Rarity = Rarity.Legendary })" /> </span>
         </div>
         <div class="col-auto">
             <input type="number" class="form-control" @bind="CardVoteThresholdWrapper" />
@@ -46,7 +46,7 @@
     </div>
     <div class="row my-2">
         <div class="col-6">
-            <span class="form-control-plaintext">Minimum upvotes for alert on <ItemDisplay Item="@(new Item { Name = "legendary Rapport", Rarity = Rarity.Legendary })" /> </span>
+            <span class="form-control-plaintext">传奇好感出现最低点赞通知数: <ItemDisplay Item="@(new Item { Name = "legendary Rapport", Rarity = Rarity.Legendary })" /> </span>
         </div>
         <div class="col-auto">
             <input type="number" class="form-control" @bind="RapportVoteThresholdWrapper" />
@@ -66,7 +66,7 @@
                     <ul>
                         <li class="d-block">
                             <NotificationIcon Enabled="IsMerchantValueNotified(key, NotificationSettingType.Spawn, key)" StateChanged="@(_ => OnNotificationToggle(NotificationSettingType.Spawn, key, key))" />
-                            <span>Notify on Spawn</span>
+                            <span>通知开关</span>
                         </li>
                     </ul>
                 </li>
