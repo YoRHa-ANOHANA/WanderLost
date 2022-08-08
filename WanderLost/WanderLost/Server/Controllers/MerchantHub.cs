@@ -98,7 +98,7 @@ public class MerchantHub : Hub<IMerchantHubClient>, IMerchantHubServer
 
         await _merchantsDbContext.SaveChangesAsync();
 
-        //Before we send to clients, remove anything that should be hidden
+        //在我们发送给客户端之前，删除任何应该隐藏的东西
         merchantGroup.ActiveMerchants.RemoveAll(m => m.Hidden);
 
         await Clients.Group(server).UpdateMerchantGroup(server, merchantGroup);

@@ -61,6 +61,7 @@ public partial class Merchants : IAsyncDisposable
         ServerRegion = ClientSettings.Region;
         Server = ClientSettings.Server;
 
+        // 接收信息添加修改
         _hubEvents.Add(HubClient.OnUpdateMerchantGroup(async (server, serverMerchantGroup) =>
         {
             if (Server != server) return;
@@ -81,8 +82,10 @@ public partial class Merchants : IAsyncDisposable
             await InvokeAsync(StateHasChanged);
         }));
 
+        // 投票点赞客户端
         _hubEvents.Add(HubClient.OnUpdateVoteSelf(async (merchantId, voteType) =>
         {
+
             //Fake the new total till the server gets back to us with a "true" count in the next polling interval
             if (ActiveData.MerchantDictionary.TryGetValue(merchantId, out var merchant)) 
             {
@@ -98,6 +101,7 @@ public partial class Merchants : IAsyncDisposable
             await InvokeAsync(StateHasChanged);
         }));
 
+        // 更新点赞数量
         _hubEvents.Add(HubClient.OnUpdateVotes(async (merchantVoteUpdates) =>
         {
             foreach (var merchantUpdate in merchantVoteUpdates)
@@ -173,6 +177,11 @@ public partial class Merchants : IAsyncDisposable
         }
     }
 
+    /// <summary>
+    /// 同步服务器
+    /// </summary>
+    /// <param name="forceClear">强制清除</param>
+    /// <returns></returns>
     private async Task SynchronizeServer(bool forceClear = false)
     {
         var serverMerchants = string.IsNullOrWhiteSpace(Server) || ActiveData.MerchantGroups.All(m => !m.IsActive) ?

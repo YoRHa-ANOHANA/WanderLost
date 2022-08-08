@@ -150,6 +150,7 @@ app.UseResponseCompression();
 app.MapRazorPages();
 app.MapControllers();
 app.MapFallbackToFile("index.html");
+
 app.MapHub<MerchantHub>($"/{MerchantHub.Path}");
 
 app.UseBlazorFrameworkFiles();
